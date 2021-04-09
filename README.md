@@ -1,3 +1,3 @@
 # csc845 project Mini Chatting App
 
-Member : Zhuojun He,  Swetha Govindu
+Members: Zhuojun He,  Swetha Govindu
