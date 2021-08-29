@@ -1,21 +1,34 @@
-# csc845 project Mini Chatting App
+# CSC845 project Mini Chat
 
 Members: Zhuojun He,  Swetha Govindu
 
 # The Goal
 To create a chatting app is the goal of our project. We will use python to create client and server programs for text messaging and the function of Internet chatting.
 
-This app will contain a server and a client program. The server side holds all the account, password and the other necessary data information. It also handles different requests from the client side. The client side is for different users to connect to the server. This app will have two functions: text messaging between two clients asynchronously and instant chatting between two clients synchronously.   
+This app will contain a server and a client program. The server side holds all the account, password and the other necessary data information for the administration purpose. It also handles different requests from the client side. The client side is for different users to connect to the server. This app will have two functions for users: text messaging asynchronously and instant chatting synchronously.   
 
+# Environment
+    python version 3.8
+    python libraries used: Socket, SMTPLIB, GetPass etc.
 
+# Configuration
+    HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+    PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
 
-# Preliminary Results
-We have built a client and a server app where the client can send a short message to the server and the server will echos it back. Also, by using multi-threading, a second client can also join the server and communicate with the server. 
-
-
-# Remaining Tasks
-1.Create the login function in the server
-2.Message chatting between the clients
-3.Encryption and Decryption between the communication if time allows
-
-
+# Acct information: 
+    "Swetha", "password": "123"
+    "Zhuojun", "password": "123"
+    "Alice", "password": "123"
+    "Bob","password": "123"
+    
+# Functions of the app:
+    ----------------------------------
+    0. Connect to the server 
+    1. Get the user list 
+    2. Send a message 
+    3. Get my messages 
+    4. Initiate a chat with my friend 
+    5. Chat with my friend
+    6. Send an email through gmail
+    7. Disconnect
+    ----------------------------------
